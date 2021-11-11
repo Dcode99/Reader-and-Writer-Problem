@@ -12,4 +12,4 @@ Clean will also save the shared memory segment with student information to "save
 
 To delete all executables, type "make clear".
 
-This code is written in C. The semaphore method used is based off of the readers and writed problem discussed in lecture.
+This code is written in C. The semaphore method used is based off of the readers and writed problem discussed in class lectures.
