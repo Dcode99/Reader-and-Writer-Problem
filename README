@@ -1,0 +1,15 @@
+Author: Dillon Tate
+Sample Code Provided By: Dr. Manivannan
+
+To compile, type "make" or "make all".
+It creates five executables "load" "print" "change" "query" and "clean"
+Run load to load the shared memory with the file, create the semaphores, and create the read_count in memory.
+Run print to print all of the student information in the shared memory.
+Run query to query for a specific student in the shared memory.
+Run change to edit, delete, or add a student's information to the shared memory.
+Run clean to destroy the shared memory segments and semaphores. Do not run query, print, or change before loading again.
+Clean will also save the shared memory segment with student information to "save.txt"
+
+To delete all executables, type "make clear".
+
+This code is written in C. The semaphore method used is based off of the readers and writed problem discussed in lecture.
